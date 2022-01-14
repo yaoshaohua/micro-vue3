@@ -1,24 +1,16 @@
 # micro-vue3
 
-## Project setup
-```
-npm install
-```
+## 项目概述 
+利用 qiankun 实现前端微服务，子应用 micro-vue3
+* 使用vue-cli初始化项目，vue ^3.0.0   
+* 独立仓库，独立部署，独立域名：https://micro-vue3.vercel.app/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 启动
 
-### Compiles and minifies for production
+```bash
+nvm use 14.17.6
+npm ci
+npm run start
 ```
-npm run build
-```
+访问 http://localhost:9002/
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
