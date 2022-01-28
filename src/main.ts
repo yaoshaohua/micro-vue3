@@ -13,7 +13,7 @@ function render(props:any = {}) {
   });
 
   instance = createApp(App)
-  instance.use(router).mount(container ? container.querySelector('#sub-app-vue3') : '#sub-app-vue3');
+  instance.use(router).mount(container ? container.querySelector('#app') : '#app');
 }
 
 // 独立运行时
